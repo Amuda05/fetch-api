@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1{
+  font-size: 40px;
+  background: -webkit-linear-gradient(red, blue, pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
+}
+.dis{
+  display: flex;
+  /* width: 20rem; */
+}
+img{
+  width: 20rem;
+  height: 20;
+  margin-left: 2rem;
+}
+
+button{
+  width: 3rem;
+  height: 2rem;
+  margin-top: 12rem;
+ margin-left: 1rem;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid black;
+	border-bottom: 25px solid transparent;
+  margin-left: 2rem;
+  margin-top: 4rem;
+}
+.triangle-right{
+  width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid black;
+	border-bottom: 25px solid transparent;
+  margin-left: 2rem;
+  margin-top: 4rem;
+}
